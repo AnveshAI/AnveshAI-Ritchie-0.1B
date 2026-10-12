@@ -69,7 +69,7 @@ pip install transformers torch
 ```python
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
-model_name = "AnveshAI/Ritchie-0.1B"  # Update with your HF repo path
+model_name = "AnveshAI/AnveshAI-Ritchie-0.1B"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
